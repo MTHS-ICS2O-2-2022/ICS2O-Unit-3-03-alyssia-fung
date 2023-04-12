@@ -20,13 +20,13 @@ func main() {
 	fmt.Println()
 	fmt.Println("Enter the radius (in cm): ")
 	fmt.Scanln(&radius)
-		fmt.Println()
+	fmt.Println()
 
 	// process
 	volume = (4.0 / 3.0) * math.Pi * math.Pow(radius, 3)
-	//.output
-	// print out the calculated volume of the pyramid
-	fmt.Print()
+
+	// output
+	// print out the calculated volume of the sphere
 	fmt.Printf("The volume is: %.2f cm³\n", volume)
 	fmt.Println("\nDone.")
 }
